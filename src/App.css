@@ -1,6 +1,8 @@
 :root { 
   --mainBG: #000;
   --mainCL: #fff;
+  --dropbg: #222222;
+  --anocol: #0b0b0b;
 }
 
 body { 
@@ -20,4 +22,18 @@ body {
 
 img { 
   pointer-events: none;
+}
+
+.hadedad { 
+  background: var(--anocol);
+  box-shadow: none;
+}
+
+.dropd { 
+  background: var(--dropbg);
+}
+
+.firstheaders { 
+  background: var(--anocol);
+  height: 100%;
 }
