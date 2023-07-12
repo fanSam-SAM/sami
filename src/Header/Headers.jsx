@@ -35,14 +35,17 @@ function Headers(){
             </header>
 
             <div className="navigations flex items-center justify-between gap-2 p-2">
-                <div className="na1 w-full p-2 bg-base-100">
-                    Home
+                <div className="na1 flex items-center justify-center rounded-md shadow-md cursor-pointer hover:scale-[.80] transition-all w-full p-2 bg-base-100">
+                    <i className="fa fa-home"></i>
+                    <span>Home</span>
                 </div>
-                <div className="na1 w-full p-2 bg-base-100">
-                    Search
+                <div className="na1 flex items-center justify-center rounded-md shadow-md cursor-pointer hover:scale-[.80] transition-all w-full p-2 bg-base-100">
+                    <i className="fa fa-search"></i>
+                    <span>Search</span>
                 </div>
-                <div className="na1 w-full p-2 bg-base-100">
-                    Settings
+                <div className="na1 flex items-center justify-center rounded-md shadow-md cursor-pointer hover:scale-[.80] transition-all w-full p-2 bg-base-100">
+                    <i className="fa fa-gear"></i>
+                    <span>Settings</span>
                 </div>
             </div>
         </>
