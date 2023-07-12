@@ -37,3 +37,8 @@ img {
   background: var(--anocol);
   height: 100%;
 }
+
+.hero {
+  background: var(--dropbg);
+  background-repeat: 'no-repeat'
+}
